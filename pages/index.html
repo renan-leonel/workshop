@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+
+        <link href="../styles/index.css" rel="stylesheet"/>
+        <link href="../styles/global.css" rel="stylesheet"/>
+        <link href="../styles/menu.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="../styles/contact.css"/>
+        <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick.css"/>
+
+        <title>Cakelicious</title>
+
+    </head>
+    <body>
+
+        <div class="menu">
+
+            <a href="index.html">
+                Principal
+            </a>
+
+            <img src="../assets/Line 1.svg"/>
+
+            <a href="catalog.html">
+                Catálogo
+            </a>
+
+            <img src="../assets/Line 1.svg"/>
+
+            <a href="#contact-link">
+                Contato
+            </a>
+
+        </div>
+
+        <div class="background">
+            <div class="bg2-container">
+                <header>
+                    <h1>Cakelicious</h1>
+                    <img src="../assets/Line 2.svg"/>
+                    <h2>Confeitaria Delivery</h2>
+                </header>
+                <p class="description">
+                    Fundada em 2003, Cakelicious desempenha um papel importante que trás aos clientes uma proposta com inovação de produtos, prezando pela qualidade entrega, atendimento e satisfação. Esta fórmula de sucesso de 17 anos, junta-se a uma série de outros elementos que ajudam a fidelizar a clientela por supreendê-la cada vez mais com as novidades.
+                </p>
+
+                <section class="carousel-wrapper">
+
+                    <div class="carousel-items-posts">
+
+                        <div class="carousel-item item-1">
+                            <img src="../assets/Cake1.jpg"/>
+
+                            <div class=" text" ="text" ">
+                                <h2>Bolo de Aniversário</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum asperiores minus, veniam inventore placeat nisi ipsa minima aut iste. Consequatur, praesentium aspernatur voluptatem omnis amet autem laudantium minus quo corrupti.</p>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item item-2">
+                            <img src="../assets/Cake2.jpg"/>
+
+                            <div class="text">
+                                <h2>Bolo de Casamento</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum asperiores minus, veniam inventore placeat nisi ipsa minima aut iste. Consequatur, praesentium aspernatur voluptatem omnis amet autem laudantium minus quo corrupti.</p>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item item-3">
+                            <img src="../assets/Cake3.jpg"/>
+
+                            <div class="text">
+                                <h2>Bolo de Temático</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum asperiores minus, veniam inventore placeat nisi ipsa minima aut iste. Consequatur, praesentium aspernatur voluptatem omnis amet autem laudantium minus quo corrupti.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="contact">
+                    <footer>
+                        <a name="contact-link"></a>
+                        <div class="contact-title">
+                            <h2>Contato</h2>
+                        </div>
+                        <div class="contact1">
+                            <p><b>Endereço:</b> AV. Delicious </p>
+                            <p><b>Número:</b> 201 </p>
+                            <p><b>Bairro:</b> Zona Doce </p>
+                            <p><b>CEP:</b> 87000-090 </p>
+                        </div>
+                        <div class="contact2">
+                            <p><b>Telefone</b> (44) 2200-0022 </p>
+                            <p><b>Whatsapp</b> (44) 0022-2200 </p>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <script src="../js/jquery-3.5.1.min.js"></script>
+        <script src="../js/slick-1.8.1/slick/slick.min.js"></script>
+        <script>
+            const slider = $(".carousel-items-posts");
+
+            slider.slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                variableWidth: true,
+                arrows: true,
+                prevArrow: "<div class='arrow-prev'></div>",
+                nextArrow: "<div class='arrow-next'></div>",
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+body{
+    background-color: #feecd6;
+}
+
+body .box-form{
+    background-color: rgba(251,173,134,0.4);
+    border: 2px solid #d02746;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    margin: 150px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+body .box-form .texto-descricao h3{
+    margin: 40px auto;
+    font-size: 24px;
+    font-family: PT Sans;
+}
+
+body .box-form .inputs{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+body .box-form .inputs label{
+    font-family: PT Sans;
+    font-size: 18px;
+}
+
+body .box-form .inputs label[for=email]{
+    margin-top: 10px;
+}
+
+body .box-form .inputs label[for=msg]{
+    margin-top: 10px;
+}
+
+body .box-form .inputs input, body .box-form .inputs textarea{
+    margin-top: 5px;
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 400px;
+    }
+
+body .box-form .inputs button{
+    position: relative;
+    left: 150px;
+    top: 15px;
+    height: 30px;
+    width: 100px;
+    border-radius: 7px;
+    border: none;
+    font-family: PT Sans;
+}
